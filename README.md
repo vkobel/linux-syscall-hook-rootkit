@@ -1,7 +1,7 @@
 # Syscall hook rootkit for the Linux Kernel
 This is a fun example of what can be done using Linux kernel modules.
 
-It hooks the `execve` syscall and waits for `date` to be executed with the `backd00r` argument followd by a PID number to elevate to root. It attaches new root credentials to the process pointed by PID.
+It hooks the `execve` syscall and waits for `date` to be executed with the `backd00r` argument followed by a PID number to elevate to root credentials.
 
 Tested with kernel 5.6.6.
 

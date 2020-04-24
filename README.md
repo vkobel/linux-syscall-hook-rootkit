@@ -18,7 +18,7 @@ Once the module is installed, as a regular user:
 ## Example
 As root:
 ```sh
-# insmod syscall_hook_rootkit.ko
+> insmod syscall_hook_rootkit.ko
 [   13.668245] syscall_hook_rootkit: loading out-of-tree module taints kernel.
 [   13.669009] syscall_hook_rootkit: module verification failed: signature and/or required key missing - tainting kl
 [   13.674155] All lights are green...

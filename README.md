@@ -35,5 +35,5 @@ date: extra operand '1341'
 Try 'date --help' for more information.
 
 > id 
-uid=0(root) gid=0(root) groups=0(root),1000(kltx)
+uid=0(root) gid=0(root) groups=0(root),1000(bob)
 ```
